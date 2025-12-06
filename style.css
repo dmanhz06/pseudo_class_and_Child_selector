@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    max-width: 100%;
+    overflow-x: hidden;
+    margin : 0;
+}
+h1{
+    text-align: center;
+    color : red;
+    font-size: clamp(26px, 7vw, 42px);
+    margin-bottom: 20px;
+    max-width: 100%;
+}
+.image{
+    width: 630px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    border: 2px solid #000;
+}
+li{
+    margin-bottom: 10px;
+    margin-left: -10px;
+}
+.tieude_lon{
+    color: rgb(0, 204, 255);
+    font-size: 25px;
+}
+.suyra{
+    color:orange;
+    font-size: 20px;
+}
+ul li, .normal{
+    list-style-type: square;
+    color: blue;
+    margin-left: -20px;
+}
+
+.click_me:link{
+    color: green;
+}
+.click_me:visited{
+    color: purple;
+}
+.click_me:hover{
+    color: orange;
+}
+.click_me:active{
+    color: red;
+}
+.click_me{
+    font-size: 20px;
+    margin-left: 50px;
+}
+h2:target{
+    background-color: yellow;
+    color:blue;
+}
+.tieude_nho{
+    color: rgb(255, 102, 0);
+    font-size: 20px;
+    margin-left:-25px;
+}

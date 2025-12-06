@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="./ico/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="./ico/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="./ico/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="./ico/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="./ico/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="./ico/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="./ico/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="./ico/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./ico/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="./ico/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./ico/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="./ico/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./ico/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./ico/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="./ico/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Pseudo_class</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-okaidia.min.css"
+    />
+  </head>
+  <body>
+    <h1>Pseudo Class</h1>
+    <ol type="I">
+      <li class="tieude_lon">Giới thiệu</li>
+      <p class="suyra">- Các loại pseudo class:</p>
+      <img src="./img/mh_cac_loai_1.jpg" alt="mh_cac_loai" class="image" />
+      <ul>
+        <li>
+          <code class="language-html">a : link</code> => là link chưa nhấp chuột
+          vào, màu giữ nguyên
+        </li>
+        <li>
+          <code class="language-html">a : visited</code> => là link đã nhấp
+          chuột vào, màu thay đổi
+        </li>
+        <li>
+          <code class="language-html">a : hover</code> => là link khi rê chuột
+          vào, màu thay đổi
+        </li>
+        <li>
+          <code class="language-html">a : active</code> => là link khi nhấp giữ
+          chuột vào, màu thay đổi
+        </li>
+      </ul>
+      <p class="suyra">Ví dụ : (có thể áp dụng cho các thẻ p, h1, h2,.. )</p>
+      <a
+        href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/:hover"
+        class="click_me"
+        target="_blank"
+        >web sample mẫu cho pseudo_class</a
+      >
+      <br />
+      <br />
+      <br />
+
+      <li class="tieude_lon">Di chuyển đến phần nào đó trong trang web</li>
+      <p class="normal">
+        - Sử dụng pseudo class <code class="language-html">:target</code> để di
+        chuyển đến phần nào đó trong trang web.
+      </p>
+      <img src="./img/mh_target.jpg" alt="minh họa target" class="image" />
+      <p class="suyra">Ví dụ:</p>
+      <ul>
+        <li>
+          <a href="#mobai">Chuyển đến mở bài</a>
+        </li>
+        <li>
+          <a href="#thanbai">Chuyển đến thân bài</a>
+        </li>
+        <li>
+          <a href="#ketbai">Chuyển đến kết bài</a>
+        </li>
+      </ul>
+      <br />
+      <h2 id="mobai">Mở bài</h2>
+      <p>
+        Công nghệ AI (Artificial Intelligence) là công nghệ được quan tâm phát
+        triển bậc nhất hiện nay, được ứng dụng trong nhiều lĩnh vực như nhận
+        diện khuôn mặt, xử lí giọng nói, kĩ thuật ước tính đám đông,... đến các
+        hệ thống an ninh, bảo mật hay hệ thống pháp luật, chính phủ. Theo dòng
+        chảy của cuộc cách mạng công nghiệp 4.0, trí tuệ nhân tạo ngày càng được
+        phổ biến và ứng dụng rộng rãi trong mọi lĩnh vực của cuộc sống. AI là
+        công nghệ sử dụng kĩ thuật số có khả năng thực hiện những nhiệm vụ mà
+        bình thường phải cần tới trí thông minh của con người. Đặc trưng của
+        công nghệ AI là năng lực “tự học” của máy tính, có thể tự phán đoán,
+        phân tích trước các dữ liệu mới mà không cần sự hỗ trợ của con người,
+        đồng thời có khả năng xử lí dữ liệu với số lượng rất lớn ở tốc độ cao.
+        Trí tuệ nhân tạo có khả năng tự thích nghi, tự học và tự phát triển, tụ
+        đưa ra các lập luận để giải quyết vấn đề, có thể giao tiếp như con
+        người,... Từ những dự đoán về ứng dụng công nghệ AI trong nhiều lĩnh vực
+        khác nhau, các nhà nghiên cứu, doanh nghiệp, khỏi nghiệp và chính phủ có
+        thể định hướng mục tiêu phát triển trong tương lai.
+      </p>
+      <br />
+      <h2 id="thanbai">Thân bài</h2>
+      <p>
+        Sự ra đời của trí tuệ nhân tạo là một bước ngoặt lớn đối với sự phát
+        triển của xã hội, đang dần trở thành một phần không thể thiếu trong cuộc
+        sống và công việc của con người. Trí tuệ nhân tạo – AI không chỉ mang
+        lại những tiện ích trực tiếp cho người sử dụng, mà còn mang lại nhiều
+        lợi ích cho toàn thể xã hội. Nhờ có công nghệ AI hỗ trợ, phát hiện và
+        ngăn chặn những rủi ro, nguy hại tiềm ẩn mà con người không phát hiện
+        được cụ thể như: thiên tai, bão, sóng thần, động đất, núi lửa,… Trí tuệ
+        nhân tạo ra đời giúp con người giải quyết các vấn đề khó khăn các lĩnh
+        vực khác nhau: tự động hóa sản xuất, giáo dục, y tế,…. Trong công
+        nghiệp, điển hình là robot chính là sản phẩm của trí tuệ nhân tạo, những
+        robot trong các công xưởng, nhà máy sản xuất hỗ trợ giảm bớt sức lao
+        động con người. Trí tuệ nhân tạo có khả năng dự đoán và phân tích tốt,
+        vì vậy nên ứng dụng trí tuệ nhân tạo trong việc cá nhân hóa chúng sẽ
+        giúp chúng ta tạo ra những sản phẩm, hay đưa ra những giải pháp phù hợp
+        cho từng đối tượng riêng biệt, từ việc nó tìm hiểu đối tượng mà nó phục
+        vụ. Điều này giúp chúng ta có thể tạo ra những sản phẩm tốt hơn với chi
+        phí tốt hơn, tối ưu hóa giúp tiết kiệm thời gian và giảm hiệu ứng nhà
+        kính đáng kể.
+      </p>
+      <br />
+      <h2 id="ketbai">Kết bài</h2>
+      <p>
+        Tóm lại, trí tuệ nhân tạo (AI) mang lại nhiều lợi ích to lớn cho con
+        người và xã hội. Tuy nhiên, bên cạnh những lợi ích đó, AI cũng tiềm ẩn
+        nhiều rủi ro và thách thức mà con người cần phải đối mặt và giải quyết.
+        Việc phát triển và ứng dụng trí tuệ nhân tạo cần được thực hiện một cách
+        cẩn trọng, có trách nhiệm và đảm bảo rằng nó phục vụ lợi ích chung của
+        con người và xã hội. Chúng ta cần tiếp tục nghiên cứu và phát triển công
+        nghệ AI một cách bền vững, đồng thời xây dựng các chính sách và quy định
+        phù hợp để đảm bảo rằng trí tuệ nhân tạo được sử dụng một cách an toàn,
+        hiệu quả và có lợi cho tất cả mọi người.
+      </p>
+      <br />
+        <li class="tieude_lon">Child Selector</li>
+        <p class="normal">- Gồm 5 loại child selector</p>
+        <img src="./img/mh_child_chinh.jpg" alt="minh họa child selector" class="image" />
+        <br>
+        <ol>
+            <li class="tieude_nho">p:first-child</li>
+            <img src="./img/mh_child_first.jpg" alt="minh hoa first child" class="image" />
+            <li class="tieude_nho">p:last-child</li>
+            <img src="./img/mh_last_child.jpg" alt="minh hoa last child" class="image" />
+            <li class="tieude_nho">p:nth-child (n) </li>
+            <img src="./img/mh_nth_child.jpg" alt="minh hoa nth child" class="image" />
+            <p class="suyra">- Gồm 3 loại khác nhau</p>
+            <ul>
+                <li class="normal"><code class="language-html">p:nth-child (2)</code>: phần tử con thứ 2 từ trên xuống</li>
+                <li class="normal"><code class="language-html">p:nth-child(even)</code>: các phần tử con có số  thứ tự chẵn</li>
+                <li class="normal"><code class="language-html">p:nth-child(odd)</code>: các phần tử con có số thứ tự lẻ</li>
+                <li class="normal"><code class="language-html">p:nth-child(2n+1)</code>: các phần tử con có số thứ tự (2n+1) với n bắt đầu từ 0,1,2,3...</li>
+            </ul>
+            <li class="tieude_nho">p:nth-last-child (n) </li>
+            <img src="./img/mh_nth_last_child.jpg" alt="minh hoa nth last child" class="image" />
+            <p class="normal">NOTE:</p>
+            <img src="./img/mh_nth_last_child_note.jpg" alt="minh hoa nth last child note" class="image" />
+            <li class="tieude_nho">p:only-child</li>
+            <img src="./img/mh_only_child.jpg" alt="minh hoa only child" class="image" />
+            <ul>
+                <li class="normal">p:only-child là chỉ có đúng 1 thẻ con p duy nhất trong 1 div</li>
+                <li class="normal">nếu có 1 thẻ khác khác p (h1) thì dù p có duy nhất 1 cái p cũng không tính</li>
+                
+            </ul>
+
+        </ol>
+    </ol>
+
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-core.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/plugins/autoloader/prism-autoloader.min.js"></script>
+  </body>
+</html>

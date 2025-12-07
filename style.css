@@ -66,3 +66,12 @@ h2:target{
     font-size: 20px;
     margin-left:-25px;
 }
+.special{
+    color: red;
+}
+.tieude_lon2{
+    color:red;
+    font-size: 25px;
+    margin-left:-30px;
+    background-color: yellow;
+}
